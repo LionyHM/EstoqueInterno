@@ -1,0 +1,4 @@
+2022-05-30 01:34:19 - Starting C:\Program Files\nodejs\node.exe  C:\App\Estoque\node_modules\node-windows\lib\wrapper.js --file C:\App\Estoque\src\pages\autenticacao.tsx --scriptoptions= --log "ESTOQUEHEJSNHIGIENIZACAO wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-05-30 01:34:19 - Started 13500
+2022-05-30 01:34:26 - Starting C:\Program Files\nodejs\node.exe  C:\App\Estoque\node_modules\node-windows\lib\wrapper.js --file C:\App\Estoque\src\pages\autenticacao.tsx --scriptoptions= --log "ESTOQUEHEJSNHIGIENIZACAO wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-05-30 01:34:26 - Started 18216

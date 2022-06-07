@@ -1,0 +1,30 @@
+<service>
+	<id>estoque.exe</id>
+	<name>ESTOQUE</name>
+	<description>Servico estoque higienizacao</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<argument>C:\Users\liony.machado.a\AppData\Roaming\npm\node_modules\qckwinsvc2\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>C:\App\Estoque\src\pages</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>ESTOQUE wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>false</argument>
+	<logmode>rotate</logmode>
+	<stoptimeout>30sec</stoptimeout>
+	<serviceaccount>
+		<domain>SRVAPL51</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>C:\App\Estoque</workingdirectory>
+</service>

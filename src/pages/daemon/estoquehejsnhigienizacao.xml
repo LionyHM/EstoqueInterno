@@ -1,0 +1,30 @@
+<service>
+	<id>estoquehejsnhigienizacao.exe</id>
+	<name>ESTOQUEHEJSNHIGIENIZACAO</name>
+	<description>Serviço da aplicação de estoque da hotelaria e cme</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<argument>C:\App\Estoque\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>C:\App\Estoque\src\pages\autenticacao.tsx</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>ESTOQUEHEJSNHIGIENIZACAO wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>false</argument>
+	<logmode>rotate</logmode>
+	<stoptimeout>30sec</stoptimeout>
+	<serviceaccount>
+		<domain>SRVAPL51</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>C:\App\Estoque</workingdirectory>
+</service>

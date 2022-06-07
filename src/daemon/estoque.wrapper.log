@@ -1,0 +1,2 @@
+2022-05-30 07:09:28 - Starting C:\Program Files\nodejs\node.exe  C:\Users\liony.machado.a\AppData\Roaming\npm\node_modules\qckwinsvc2\node_modules\node-windows\lib\wrapper.js --file C:\App\Estoque\src\pages --scriptoptions= --log "ESTOQUE wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst false
+2022-05-30 07:09:28 - Started 11520
